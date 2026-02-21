@@ -1,0 +1,8 @@
+{"qid": "q1", "query": "What is the capital of Tamil Nadu?", "relevant_doc_ids": ["doc1"]}
+{"qid": "q2", "query": "What processor does Raspberry Pi 3 use?", "relevant_doc_ids": ["doc3"]}
+{"qid": "q3", "query": "How long is Marina Beach?", "relevant_doc_ids": ["doc11"]}
+{"qid": "q4", "query": "Where is the Kapaleeshwarar Temple?", "relevant_doc_ids": ["doc8"]}
+{"qid": "q5", "query": "What was Chennai formerly called?", "relevant_doc_ids": ["doc13"]}
+{"qid": "q6", "query": "What RAM does Raspberry Pi 3 have?", "relevant_doc_ids": ["doc3"]}
+{"qid": "q7", "query": "Which classical dance originated in Tamil Nadu?", "relevant_doc_ids": ["doc19"]}
+{"qid": "q8", "query": "What is the Cortex-A53?", "relevant_doc_ids": ["doc20"]}
