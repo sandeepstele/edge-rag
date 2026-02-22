@@ -7,7 +7,7 @@ from math import log2
 QUERIES_PATH = "data/queries.jsonl"
 MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
-K_LIST = [1, 3, 5, 10]
+K_LIST = [1, 3, 5, 10, 20, 50]  # stress test: see where binary degrades at higher k
 
 def l2_normalize(x: np.ndarray, eps: float = 1e-12) -> np.ndarray:
     n = np.linalg.norm(x, axis=1, keepdims=True)

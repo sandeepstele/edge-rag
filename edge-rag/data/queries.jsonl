@@ -6,3 +6,115 @@
 {"qid": "q6", "query": "What RAM does Raspberry Pi 3 have?", "relevant_doc_ids": ["doc3"]}
 {"qid": "q7", "query": "Which classical dance originated in Tamil Nadu?", "relevant_doc_ids": ["doc19"]}
 {"qid": "q8", "query": "What is the Cortex-A53?", "relevant_doc_ids": ["doc20"]}
+{"qid": "q9", "query": "What is the financial capital of India?", "relevant_doc_ids": ["doc21"]}
+{"qid": "q10", "query": "Where is the Gateway of India?", "relevant_doc_ids": ["doc22"]}
+{"qid": "q11", "query": "Which city is the Silicon Valley of India?", "relevant_doc_ids": ["doc23"]}
+{"qid": "q12", "query": "What is the national capital of India?", "relevant_doc_ids": ["doc25"]}
+{"qid": "q13", "query": "Where is Charminar located?", "relevant_doc_ids": ["doc27"]}
+{"qid": "q14", "query": "What is the cultural capital of India?", "relevant_doc_ids": ["doc28"]}
+{"qid": "q15", "query": "Capital of Japan?", "relevant_doc_ids": ["doc30"]}
+{"qid": "q16", "query": "Capital of the United Kingdom?", "relevant_doc_ids": ["doc31"]}
+{"qid": "q17", "query": "Where is the Eiffel Tower?", "relevant_doc_ids": ["doc32"]}
+{"qid": "q18", "query": "Capital of Germany?", "relevant_doc_ids": ["doc33"]}
+{"qid": "q19", "query": "When was Raspberry Pi 5 released?", "relevant_doc_ids": ["doc81"]}
+{"qid": "q20", "query": "What processor does Raspberry Pi 4 use?", "relevant_doc_ids": ["doc82"]}
+{"qid": "q21", "query": "Which board uses ATmega328P?", "relevant_doc_ids": ["doc83"]}
+{"qid": "q22", "query": "What is ESP32?", "relevant_doc_ids": ["doc84"]}
+{"qid": "q23", "query": "What are GPIO pins on Raspberry Pi?", "relevant_doc_ids": ["doc87"]}
+{"qid": "q24", "query": "Tell me about Chennai.", "relevant_doc_ids": ["doc1", "doc2", "doc6", "doc13"]}
+{"qid": "q25", "query": "What are the main facts about Mumbai?", "relevant_doc_ids": ["doc21", "doc22"]}
+{"qid": "q26", "query": "Raspberry Pi models and specifications.", "relevant_doc_ids": ["doc3", "doc5", "doc7", "doc9"]}
+{"qid": "q27", "query": "Raspberry Pi 3 and 4 specs.", "relevant_doc_ids": ["doc3", "doc7", "doc81", "doc82"]}
+{"qid": "q28", "query": "Indian cities and landmarks.", "relevant_doc_ids": ["doc1", "doc2", "doc21", "doc22", "doc25"]}
+{"qid": "q29", "query": "ARM Cortex processors in boards.", "relevant_doc_ids": ["doc3", "doc20", "doc82"]}
+{"qid": "q30", "query": "Marina Beach and Chennai.", "relevant_doc_ids": ["doc2", "doc11", "doc1"]}
+{"qid": "q31", "query": "Capital cities.", "relevant_doc_ids": ["doc1", "doc25", "doc30", "doc31"]}
+{"qid": "q32", "query": "Single-board computers for education.", "relevant_doc_ids": ["doc5", "doc12", "doc85", "doc87"]}
+{"qid": "q33", "query": "Raspberry Pi Foundation and education.", "relevant_doc_ids": ["doc12", "doc86"]}
+{"qid": "q34", "query": "Elephants and blue whales.", "relevant_doc_ids": ["doc181", "doc182"]}
+{"qid": "q35", "query": "Birds of prey and eagles.", "relevant_doc_ids": ["doc183"]}
+{"qid": "q36", "query": "Octopuses and intelligence.", "relevant_doc_ids": ["doc184"]}
+{"qid": "q37", "query": "Photosynthesis and plants.", "relevant_doc_ids": ["doc185"]}
+{"qid": "q38", "query": "History and culture.", "relevant_doc_ids": ["doc301", "doc302", "doc303"]}
+{"qid": "q39", "query": "Retrieval stress test query 1 about multiple topics.", "relevant_doc_ids": ["doc1", "doc21"]}
+{"qid": "q40", "query": "Retrieval stress test query 2 about multiple topics.", "relevant_doc_ids": ["doc8", "doc32"]}
+{"qid": "q41", "query": "Retrieval stress test query 3 about multiple topics.", "relevant_doc_ids": ["doc15", "doc43"]}
+{"qid": "q42", "query": "Retrieval stress test query 4 about multiple topics.", "relevant_doc_ids": ["doc22", "doc54"]}
+{"qid": "q43", "query": "Retrieval stress test query 5 about multiple topics.", "relevant_doc_ids": ["doc29", "doc65"]}
+{"qid": "q44", "query": "Retrieval stress test query 6 about multiple topics.", "relevant_doc_ids": ["doc36", "doc76"]}
+{"qid": "q45", "query": "Retrieval stress test query 7 about multiple topics.", "relevant_doc_ids": ["doc43", "doc87"]}
+{"qid": "q46", "query": "Retrieval stress test query 8 about multiple topics.", "relevant_doc_ids": ["doc50", "doc98"]}
+{"qid": "q47", "query": "Retrieval stress test query 9 about multiple topics.", "relevant_doc_ids": ["doc57", "doc29"]}
+{"qid": "q48", "query": "Retrieval stress test query 10 about multiple topics.", "relevant_doc_ids": ["doc64", "doc40"]}
+{"qid": "q49", "query": "Retrieval stress test query 11 about multiple topics.", "relevant_doc_ids": ["doc71", "doc51"]}
+{"qid": "q50", "query": "Retrieval stress test query 12 about multiple topics.", "relevant_doc_ids": ["doc78", "doc62"]}
+{"qid": "q51", "query": "Retrieval stress test query 13 about multiple topics.", "relevant_doc_ids": ["doc85", "doc73"]}
+{"qid": "q52", "query": "Retrieval stress test query 14 about multiple topics.", "relevant_doc_ids": ["doc92", "doc84"]}
+{"qid": "q53", "query": "Retrieval stress test query 15 about multiple topics.", "relevant_doc_ids": ["doc99", "doc95"]}
+{"qid": "q54", "query": "Retrieval stress test query 16 about multiple topics.", "relevant_doc_ids": ["doc6", "doc26"]}
+{"qid": "q55", "query": "Retrieval stress test query 17 about multiple topics.", "relevant_doc_ids": ["doc13", "doc37"]}
+{"qid": "q56", "query": "Retrieval stress test query 18 about multiple topics.", "relevant_doc_ids": ["doc20", "doc48"]}
+{"qid": "q57", "query": "Retrieval stress test query 19 about multiple topics.", "relevant_doc_ids": ["doc27", "doc59"]}
+{"qid": "q58", "query": "Retrieval stress test query 20 about multiple topics.", "relevant_doc_ids": ["doc34", "doc70"]}
+{"qid": "q59", "query": "Retrieval stress test query 21 about multiple topics.", "relevant_doc_ids": ["doc41", "doc81"]}
+{"qid": "q60", "query": "Retrieval stress test query 22 about multiple topics.", "relevant_doc_ids": ["doc48", "doc92"]}
+{"qid": "q61", "query": "Retrieval stress test query 23 about multiple topics.", "relevant_doc_ids": ["doc55", "doc23"]}
+{"qid": "q62", "query": "Retrieval stress test query 24 about multiple topics.", "relevant_doc_ids": ["doc62", "doc34"]}
+{"qid": "q63", "query": "Retrieval stress test query 25 about multiple topics.", "relevant_doc_ids": ["doc69", "doc45"]}
+{"qid": "q64", "query": "Retrieval stress test query 26 about multiple topics.", "relevant_doc_ids": ["doc76", "doc56"]}
+{"qid": "q65", "query": "Retrieval stress test query 27 about multiple topics.", "relevant_doc_ids": ["doc83", "doc67"]}
+{"qid": "q66", "query": "Retrieval stress test query 28 about multiple topics.", "relevant_doc_ids": ["doc90", "doc78"]}
+{"qid": "q67", "query": "Retrieval stress test query 29 about multiple topics.", "relevant_doc_ids": ["doc97", "doc89"]}
+{"qid": "q68", "query": "Retrieval stress test query 30 about multiple topics.", "relevant_doc_ids": ["doc4", "doc100"]}
+{"qid": "q69", "query": "Retrieval stress test query 31 about multiple topics.", "relevant_doc_ids": ["doc11", "doc31"]}
+{"qid": "q70", "query": "Retrieval stress test query 32 about multiple topics.", "relevant_doc_ids": ["doc18", "doc42"]}
+{"qid": "q71", "query": "Retrieval stress test query 33 about multiple topics.", "relevant_doc_ids": ["doc25", "doc53"]}
+{"qid": "q72", "query": "Retrieval stress test query 34 about multiple topics.", "relevant_doc_ids": ["doc32", "doc64"]}
+{"qid": "q73", "query": "Retrieval stress test query 35 about multiple topics.", "relevant_doc_ids": ["doc39", "doc75"]}
+{"qid": "q74", "query": "Retrieval stress test query 36 about multiple topics.", "relevant_doc_ids": ["doc46", "doc86"]}
+{"qid": "q75", "query": "Retrieval stress test query 37 about multiple topics.", "relevant_doc_ids": ["doc53", "doc97"]}
+{"qid": "q76", "query": "Retrieval stress test query 38 about multiple topics.", "relevant_doc_ids": ["doc60", "doc28"]}
+{"qid": "q77", "query": "Retrieval stress test query 39 about multiple topics.", "relevant_doc_ids": ["doc67", "doc39"]}
+{"qid": "q78", "query": "Retrieval stress test query 40 about multiple topics.", "relevant_doc_ids": ["doc74", "doc50"]}
+{"qid": "q79", "query": "General retrieval query 79 for stress test evaluation.", "relevant_doc_ids": ["doc80", "doc81"]}
+{"qid": "q80", "query": "General retrieval query 80 for stress test evaluation.", "relevant_doc_ids": ["doc81", "doc82", "doc83"]}
+{"qid": "q81", "query": "General retrieval query 81 for stress test evaluation.", "relevant_doc_ids": ["doc82"]}
+{"qid": "q82", "query": "General retrieval query 82 for stress test evaluation.", "relevant_doc_ids": ["doc83", "doc84"]}
+{"qid": "q83", "query": "General retrieval query 83 for stress test evaluation.", "relevant_doc_ids": ["doc84", "doc85", "doc86"]}
+{"qid": "q84", "query": "General retrieval query 84 for stress test evaluation.", "relevant_doc_ids": ["doc85"]}
+{"qid": "q85", "query": "General retrieval query 85 for stress test evaluation.", "relevant_doc_ids": ["doc86", "doc87"]}
+{"qid": "q86", "query": "General retrieval query 86 for stress test evaluation.", "relevant_doc_ids": ["doc87", "doc88", "doc89"]}
+{"qid": "q87", "query": "General retrieval query 87 for stress test evaluation.", "relevant_doc_ids": ["doc88"]}
+{"qid": "q88", "query": "General retrieval query 88 for stress test evaluation.", "relevant_doc_ids": ["doc89", "doc90"]}
+{"qid": "q89", "query": "General retrieval query 89 for stress test evaluation.", "relevant_doc_ids": ["doc90", "doc91", "doc92"]}
+{"qid": "q90", "query": "General retrieval query 90 for stress test evaluation.", "relevant_doc_ids": ["doc91"]}
+{"qid": "q91", "query": "General retrieval query 91 for stress test evaluation.", "relevant_doc_ids": ["doc92", "doc93"]}
+{"qid": "q92", "query": "General retrieval query 92 for stress test evaluation.", "relevant_doc_ids": ["doc93", "doc94", "doc95"]}
+{"qid": "q93", "query": "General retrieval query 93 for stress test evaluation.", "relevant_doc_ids": ["doc94"]}
+{"qid": "q94", "query": "General retrieval query 94 for stress test evaluation.", "relevant_doc_ids": ["doc95", "doc96"]}
+{"qid": "q95", "query": "General retrieval query 95 for stress test evaluation.", "relevant_doc_ids": ["doc96", "doc97", "doc98"]}
+{"qid": "q96", "query": "General retrieval query 96 for stress test evaluation.", "relevant_doc_ids": ["doc97"]}
+{"qid": "q97", "query": "General retrieval query 97 for stress test evaluation.", "relevant_doc_ids": ["doc98", "doc99"]}
+{"qid": "q98", "query": "General retrieval query 98 for stress test evaluation.", "relevant_doc_ids": ["doc99", "doc100", "doc1"]}
+{"qid": "q99", "query": "General retrieval query 99 for stress test evaluation.", "relevant_doc_ids": ["doc100"]}
+{"qid": "q100", "query": "General retrieval query 100 for stress test evaluation.", "relevant_doc_ids": ["doc1", "doc2"]}
+{"qid": "q101", "query": "General retrieval query 101 for stress test evaluation.", "relevant_doc_ids": ["doc2", "doc3", "doc4"]}
+{"qid": "q102", "query": "General retrieval query 102 for stress test evaluation.", "relevant_doc_ids": ["doc3"]}
+{"qid": "q103", "query": "General retrieval query 103 for stress test evaluation.", "relevant_doc_ids": ["doc4", "doc5"]}
+{"qid": "q104", "query": "General retrieval query 104 for stress test evaluation.", "relevant_doc_ids": ["doc5", "doc6", "doc7"]}
+{"qid": "q105", "query": "General retrieval query 105 for stress test evaluation.", "relevant_doc_ids": ["doc6"]}
+{"qid": "q106", "query": "General retrieval query 106 for stress test evaluation.", "relevant_doc_ids": ["doc7", "doc8"]}
+{"qid": "q107", "query": "General retrieval query 107 for stress test evaluation.", "relevant_doc_ids": ["doc8", "doc9", "doc10"]}
+{"qid": "q108", "query": "General retrieval query 108 for stress test evaluation.", "relevant_doc_ids": ["doc9"]}
+{"qid": "q109", "query": "General retrieval query 109 for stress test evaluation.", "relevant_doc_ids": ["doc10", "doc11"]}
+{"qid": "q110", "query": "General retrieval query 110 for stress test evaluation.", "relevant_doc_ids": ["doc11", "doc12", "doc13"]}
+{"qid": "q111", "query": "General retrieval query 111 for stress test evaluation.", "relevant_doc_ids": ["doc12"]}
+{"qid": "q112", "query": "General retrieval query 112 for stress test evaluation.", "relevant_doc_ids": ["doc13", "doc14"]}
+{"qid": "q113", "query": "General retrieval query 113 for stress test evaluation.", "relevant_doc_ids": ["doc14", "doc15", "doc16"]}
+{"qid": "q114", "query": "General retrieval query 114 for stress test evaluation.", "relevant_doc_ids": ["doc15"]}
+{"qid": "q115", "query": "General retrieval query 115 for stress test evaluation.", "relevant_doc_ids": ["doc16", "doc17"]}
+{"qid": "q116", "query": "General retrieval query 116 for stress test evaluation.", "relevant_doc_ids": ["doc17", "doc18", "doc19"]}
+{"qid": "q117", "query": "General retrieval query 117 for stress test evaluation.", "relevant_doc_ids": ["doc18"]}
+{"qid": "q118", "query": "General retrieval query 118 for stress test evaluation.", "relevant_doc_ids": ["doc19", "doc20"]}
+{"qid": "q119", "query": "General retrieval query 119 for stress test evaluation.", "relevant_doc_ids": ["doc20", "doc21", "doc22"]}
+{"qid": "q120", "query": "General retrieval query 120 for stress test evaluation.", "relevant_doc_ids": ["doc21"]}
