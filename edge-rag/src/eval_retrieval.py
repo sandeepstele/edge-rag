@@ -1,11 +1,16 @@
 import json
+import os
 import numpy as np
-from sentence_transformers import SentenceTransformer
 from tqdm import tqdm
 from math import log2
 
 QUERIES_PATH = "data/queries.jsonl"
+INDEX_DIR = "index"
 MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
+
+# Use precomputed query embeddings and qrels when present (Pi-friendly; no torch)
+QUERIES_EMB_PATH = os.path.join(INDEX_DIR, "queries_emb_f32.npy")
+QRELS_PATH = os.path.join(INDEX_DIR, "qrels.json")
 
 K_LIST = [1, 3, 5, 10, 20, 50]  # stress test: see where binary degrades at higher k
 
@@ -68,24 +73,35 @@ def to_query_bin(q: np.ndarray) -> np.ndarray:
     return np.packbits(bits)
 
 def main():
-    doc_ids = np.load("index/doc_ids.npy", allow_pickle=True)
-    X = np.load("index/emb_f32.npy").astype(np.float32)
-    X_bin = np.load("index/emb_bin_u8.npy").astype(np.uint8)
+    doc_ids = np.load(os.path.join(INDEX_DIR, "doc_ids.npy"), allow_pickle=True)
+    X = np.load(os.path.join(INDEX_DIR, "emb_f32.npy")).astype(np.float32)
+    X_bin = np.load(os.path.join(INDEX_DIR, "emb_bin_u8.npy")).astype(np.uint8)
 
-    model = SentenceTransformer(MODEL_NAME)
-
-    queries = []
-    with open(QUERIES_PATH, "r", encoding="utf-8") as f:
-        for line in f:
-            obj = json.loads(line)
-            queries.append(obj)
-
-    print(f"Loaded {len(queries)} queries")
-
-    # Encode queries once
-    q_texts = [q["query"] for q in queries]
-    Q = model.encode(q_texts, batch_size=64, show_progress_bar=True, normalize_embeddings=False)
-    Q = l2_normalize(np.asarray(Q, dtype=np.float32))
+    # Precomputed embeddings + qrels (Pi: no torch) or encode from queries.jsonl (laptop)
+    query_ids_path = os.path.join(INDEX_DIR, "query_ids.npy")
+    if os.path.isfile(QUERIES_EMB_PATH) and os.path.isfile(QRELS_PATH):
+        Q = np.load(QUERIES_EMB_PATH).astype(np.float32)
+        with open(QRELS_PATH, "r", encoding="utf-8") as f:
+            qrels = json.load(f)
+        if os.path.isfile(query_ids_path):
+            qids = list(np.load(query_ids_path, allow_pickle=True))
+        else:
+            qids = sorted(qrels.keys(), key=lambda x: int(x[1:]) if x[1:].isdigit() else x)
+        assert len(qids) == len(Q), "queries_emb_f32.npy row count must match qrels"
+        queries = [{"qid": qid, "relevant_doc_ids": qrels[qid]} for qid in qids]
+        print(f"Loaded {len(queries)} queries from index/ (precomputed; Pi-friendly)")
+    else:
+        from sentence_transformers import SentenceTransformer
+        model = SentenceTransformer(MODEL_NAME)
+        queries = []
+        with open(QUERIES_PATH, "r", encoding="utf-8") as f:
+            for line in f:
+                obj = json.loads(line)
+                queries.append(obj)
+        q_texts = [q["query"] for q in queries]
+        Q = model.encode(q_texts, batch_size=64, show_progress_bar=True, normalize_embeddings=False)
+        Q = l2_normalize(np.asarray(Q, dtype=np.float32))
+        print(f"Loaded {len(queries)} queries (encoded with model)")
 
     results = {
         "float": {f"recall@{k}": [] for k in K_LIST} | {f"prec@{k}": [] for k in K_LIST} | {"mrr": [], "ndcg@10": []},
